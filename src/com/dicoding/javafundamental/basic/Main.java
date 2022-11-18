@@ -18,6 +18,8 @@ public class Main {
         Kereta.jumlahBan();
         Motor.jumlahBan();
 
+
+
         Date today = new Date();
         System.out.println("Hari ini adalah hari: " + today);
         Date tomorrow = DateUtils.addDays(today, 1);
