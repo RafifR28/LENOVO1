@@ -18,7 +18,9 @@ public class Main {
         Kereta.jumlahBan();
         Motor.jumlahBan();
 
-
+        char[] dicodingChars = {'d', 'i', 'c', 'o', 'd', 'i', 'n', 'g'};
+        String karakter = new String(dicodingChars);
+        System.out.println(karakter);
 
         Date today = new Date();
         System.out.println("Hari ini adalah hari: " + today);
