@@ -21,7 +21,8 @@ public class Main {
         System.out.println(selamat);
 
         char[] dicodingChars = {'d', 'i', 'c', 'o', 'd', 'i', 'n', 'g'};
-        String dicodingString = new String(dicodingChars);
+        String halo = new String(dicodingChars);
+        System.out.println(halo);
 
         Date today = new Date();
         System.out.println("Hari ini adalah hari: " + today);
