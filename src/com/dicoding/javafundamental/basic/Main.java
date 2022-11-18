@@ -17,10 +17,16 @@ public class Main {
         Mobil.jumlahBan();
         Kereta.jumlahBan();
         Motor.jumlahBan();
+        String selamat = "Halo Teman-Teman";
+        System.out.println(selamat);
+
+        char[] dicodingChars = {'d', 'i', 'c', 'o', 'd', 'i', 'n', 'g'};
+        String dicodingString = new String(dicodingChars);
 
         Date today = new Date();
         System.out.println("Hari ini adalah hari: " + today);
         Date tomorrow = DateUtils.addDays(today, 1);
         System.out.println("Besok adalah hari: " + tomorrow);
+
     }
 }
